@@ -5,23 +5,23 @@ import type { DataNode, TreeProps } from 'antd/es/tree';
 
 const treeData: DataNode[] = [
   {
-    title: 'parent 1',
+    title: '核算领域',
     key: '0-0',
     children: [
       {
-        title: 'parent 1-0',
+        title: '核算大类',
         key: '0-0-0',
         children: [
           {
-            title: 'leaf',
+            title: '核算小类1',
             key: '0-0-0-0',
           },
           {
-            title: 'leaf',
+            title: '核算小类2',
             key: '0-0-0-1',
           },
           {
-            title: 'leaf',
+            title: '核算小类3',
             key: '0-0-0-2',
           },
         ],
